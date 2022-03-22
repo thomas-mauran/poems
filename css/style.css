@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2vh 5%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+
+#titre{
+    margin: 2vh;
+}
+
+#auteur{
+    margin: 2vh
+}
+
+#ligne-div p{
+    margin: 2vh;
+}
+button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3vh;
+    border-radius: 15px;
+    
+  }
+
+button:hover{
+    cursor:pointer;
+}
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+    } 
+body {
+    background-color: rgba(39, 39, 39, 0.5);
+    top: 0px !important; 
+}
